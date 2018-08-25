@@ -1,2 +1,1 @@
-java $JAVA_OPTS -jar target/springboot_heroku-0.0.1-SNAPSHOT.jar --server.port=$PORT $JAR_OPTS
-
+web: java -jar target/springboot_heroku-0.0.1-SNAPSHOT.jar
