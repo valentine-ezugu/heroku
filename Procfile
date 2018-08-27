@@ -1,1 +1,0 @@
-web: java -jar target/springboot_heroku-0.0.1-SNAPSHOT.jar
