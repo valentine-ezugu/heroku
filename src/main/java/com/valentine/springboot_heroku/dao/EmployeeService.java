@@ -1,5 +1,6 @@
 package com.valentine.springboot_heroku.dao;
 
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
@@ -35,6 +36,7 @@ public class EmployeeService {
     private Map<String, String> map = new HashMap<>(mapOfEmployees());
 
 
+    @Cacheable("employee")
     public String getEmployeeById(String id) {
             slowServiceSimulation();
         return map.get(id);

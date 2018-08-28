@@ -27,6 +27,10 @@ public class AppRunner implements CommandLineRunner {
         logger.info("employee-126 -->" + employeeService.getEmployeeById("126"));
         logger.info("employee-127 -->" + employeeService.getEmployeeById("127"));
         logger.info("employee-123 -->" + employeeService.getEmployeeById("123"));
+        logger.info("employee-123 -->" + employeeService.getEmployeeById("123"));
+        logger.info("employee-123 -->" + employeeService.getEmployeeById("123"));
+        logger.info("employee-123 -->" + employeeService.getEmployeeById("123"));
+        logger.info("employee-123 -->" + employeeService.getEmployeeById("123"));
     }
 
 }
