@@ -24,7 +24,7 @@
         <java.version>1.8</java.version>
 
         <!-- Replace value of this property with your application name on Heroku -->
-        <heroku.app.name>ysemp</heroku.app.name>
+        <heroku.app.name>infinite-tor-89365</heroku.app.name>
     </properties>
 
     <dependencies>
